@@ -109,3 +109,42 @@ If you do not wish to install this documentation in the future, use the
 RubyGems system software updated
 
 ```
+
+# ruby-lsp
+
+```bash
+$ sudo ruby-lsp
+
+Ruby LSP> Skipping lockfile copies because there's no top level bundle
+Ruby LSP> Running bundle install for the composed bundle. This may take a while...
+Ruby LSP> Command: ((/usr/bin/ruby.ruby4.0 /usr/bin/bundle check && /usr/bin/ruby.ruby4.0 /usr/bin/bundle update ruby-lsp debug prism rbs) || /usr/bin/ruby.ruby4.0 /usr/bin/bundle install) 1>&2
+Resolving dependencies...
+The Gemfile's dependencies are satisfied
+Fetching gem metadata from https://rubygems.org/........
+Resolving dependencies...
+Resolving dependencies...
+Fetching prettyprint 0.2.0
+Fetching pp 0.6.4 (was 0.6.3)
+Fetching erb 6.0.7 (was 6.0.1.1)
+Fetching tsort 0.2.0
+Fetching rbs 4.1.2 (was 3.10.0)
+Fetching io-console 0.8.2
+Fetching reline 0.7.0 (was 0.6.3)
+Fetching irb 1.18.0 (was 1.16.0)
+Fetching prism 1.9.0 (was 1.8.1)
+Fetching rdoc 8.0.0 (was 7.0.4)
+Installing tsort 0.2.0
+Installing pp 0.6.4 (was 0.6.3)
+Installing prettyprint 0.2.0
+Installing erb 6.0.7 (was 6.0.1.1) with native extensions
+Installing io-console 0.8.2 with native extensions
+Installing reline 0.7.0 (was 0.6.3)
+Installing irb 1.18.0 (was 1.16.0)
+Installing rdoc 8.0.0 (was 7.0.4)
+Installing prism 1.9.0 (was 1.8.1) with native extensions
+Installing rbs 4.1.2 (was 3.10.0) with native extensions
+Bundler attempted to update ruby-lsp but its version stayed the same
+Bundler attempted to update debug but its version stayed the same
+Bundle updated!
+
+```
