@@ -1,0 +1,17 @@
+{
+  "languages": {
+    "Ruby": {
+      "language_servers": ["ruby-lsp"]
+    }
+  },
+  "lsp": {
+    "ruby-lsp": {
+      "initialization_options": {
+        "enabledFeatures": {
+          "documentFormatting": true,
+          "diagnostics": true
+        }
+      }
+    }
+  }
+}
